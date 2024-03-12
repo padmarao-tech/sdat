@@ -1,0 +1,15 @@
+server:
+  port: 8080
+
+spring:
+  cors:
+    allowed-origins: "*"
+    allowed-methods: "GET,POST,PUT,DELETE"
+    allowed-headers: "*"
+  datasource:
+    url: jdbc:postgresql://localhost:5432/scms
+    username: postgres
+    password: oot@123
+  main:
+    web-application-type: servlet
+
